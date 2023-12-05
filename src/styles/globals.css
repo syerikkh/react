@@ -17,11 +17,118 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background-color: #FFFFFF;
+  width: 1440px;
+  margin: auto;
+}
+
+header {
+  height: 68px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  padding: 16px 80px 16px 80px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 24px;
+
+}
+
+.downloadBtn {
+  background-color: black;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 16px 6px 16px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  width: 1440px;
+  height: 100vh;
+  padding: 96px 80px 96px 80px;
+}
+
+.container {
+  display: flex;
+  gap: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bio-header {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.bio-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 48px;
+}
+
+.dot-icon-container {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.dot-icon {
+  width: 8px;
+  height: 8px;
+}
+
+.location {
+  display: flex;
+  gap: 8px;
+}
+
+.available {
+  display: flex;
+  gap: 8px;
+}
+
+.bio-footer {
+  padding-top: 48px;
+}
+
+.contact {
+  display: flex;
+}
+
+.person-pic {
+  width: 280px;
+  height: 320px;
+  box-shadow: 40px 40px #E5E7EB;
+
 }
