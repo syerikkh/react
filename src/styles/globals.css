@@ -42,14 +42,16 @@ nav {
 .nav-right {
   display: flex;
   gap: 24px;
-
+  align-items: center;
 }
 
 .downloadBtn {
   background-color: black;
+  width: 136px;
+  height: 36px;
   border-radius: 12px;
   color: #FFFFFF;
-  padding: 16px 6px 16px 6px;
+  padding: 6px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +64,7 @@ nav {
 
 main {
   width: 1440px;
-  height: 100vh;
+  max-width: 1440px;
   padding: 96px 80px 96px 80px;
 }
 
@@ -71,7 +73,7 @@ main {
   gap: 48px;
   padding-left: 32px;
   padding-right: 32px;
-  justify-content: space-between;
+
 }
 
 .bio-container {
@@ -122,13 +124,24 @@ main {
   padding-top: 48px;
 }
 
-.contact {
+.contact-icons {
   display: flex;
+}
+
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: stretch;
+  flex: 1 0 0;
+  object-fit: cover;
 }
 
 .person-pic {
   width: 280px;
   height: 320px;
+  flex-shrink: 0;
   box-shadow: 40px 40px #E5E7EB;
 
 }
