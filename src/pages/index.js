@@ -4,6 +4,8 @@ import { About } from '../components/About'
 import { FirstMainPage } from '../components/FirstMainPage'
 import { HeaderPart } from '../components/HeaderPart'
 import { Skills } from '@/components/Skills'
+import { MainExperience } from '../components/MainExperience'
+import { Label } from '@/components/Label'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,16 +33,19 @@ export default function Home() {
         </div>
         <div class="py-24 px-20 w-[1440px]">
           <div class="flex flex-col gap-12 px-8">
-            <div class="flex justify-center items-center flex-col gap-4">
-              <div class="py-1 px-5 rounded-xl bg-[#E5E7EB]">Skills</div>
-              <div class="text-xl font-normal">The skills, tools and technologies I am really good at:</div>
-            </div>
+            <Label label="Skills" text="The skills, tools and technologies I am really good at:" />
             <div>
               <Skills />
             </div>
           </div>
         </div>
+        <MainExperience />
+        <div class="w-[1440px] py-24 px-20">
+          <div class="px-8 flex flex-col gap-12 justify-center items-center">
+            <Label label="Work" text="Some of the noteworthy projects I have built:" />
+          </div>
 
+        </div>
       </main>
     </>
   )

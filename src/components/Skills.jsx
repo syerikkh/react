@@ -46,42 +46,42 @@ const skills = [
         icon: <NestJsIcon />,
         title: "Nest.js"
     },
-    // {
-    //     icon: <SocketIoIcon />,
-    //     title: "Socket.io"
-    // },
-    // {
-    //     icon: < SocketIoIcon />,
-    //     title: "PostgreSQL"
-    // },
-    // {
-    //     icon: <MongoDBIcon />,
-    //     title: "MongoDB"
-    // },
-    // {
-    //     icon: <ScssIcon />,
-    //     title: "Sass/Scss"
-    // },
-    // {
-    //     icon: <TailwindcssIcon />,
-    //     title: "Tailwindcss"
-    // },
-    // {
-    //     icon: <FigmaIcon />,
-    //     title: "Figma"
-    // },
-    // {
-    //     icon: <CypressIcon />,
-    //     title: "Cypress"
-    // },
-    // {
-    //     icon: <StorybookIcon />,
-    //     title: "Storybook"
-    // },
-    // {
-    //     icon: <GitIcon />,
-    //     title: "Git"
-    // },
+    {
+        icon: <SocketIoIcon />,
+        title: "Socket.io"
+    },
+    {
+        icon: < SocketIoIcon />,
+        title: "PostgreSQL"
+    },
+    {
+        icon: <MongoDBIcon />,
+        title: "MongoDB"
+    },
+    {
+        icon: <ScssIcon />,
+        title: "Sass/Scss"
+    },
+    {
+        icon: <ScssIcon />,
+        title: "Tailwindcss"
+    },
+    {
+        icon: <FigmaIcon />,
+        title: "Figma"
+    },
+    {
+        icon: <CypressIcon />,
+        title: "Cypress"
+    },
+    {
+        icon: <StorybookIcon />,
+        title: "Storybook"
+    },
+    {
+        icon: <GitIcon />,
+        title: "Git"
+    },
 ];
 
 export const Skills = () => {
@@ -91,7 +91,7 @@ export const Skills = () => {
     })
 
     return (
-        <div>
+        <div class="flex flex-wrap gap-20 justify-center">
             {skillSet}
         </div>
     )
