@@ -2,11 +2,14 @@ import React from 'react'
 
 export const FirstMainPage = () => {
     return (
-        <div class="w-[1440px] py-24 px-20">
-            <div class="flex gap-12 px-8 justify-between">
-                <div class="flex flex-col gap-2">
-                    <h1 class="text-6xl font-bold">Hi, I’m Sagar 👋</h1>
-                    <p1 class="text-base font-normal">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) <br /> exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even<br /> though I have been creating web applications for over 7 years, I still love it as if it was something new.</p1>
+        <div class="lg:w-[1440px] lg:py-24 lg:px-20 px-4 py-16 w-full">
+            <div class="lg:flex lg:flex-row lg:gap-12 lg:px-8 lg:justify-between flex flex-col gap-12 items-center">
+                <div class="h-90 w-100 lg:hidden ">
+                    <img class="lg:shadow-[40px_40px_#E5E7EB] shadow-[20px_20px_#E5E7EB]" src='Pic.png' />
+                </div>
+                <div class="lg:flex lg:flex-col lg:gap-2 lg:items-start flex flex-col gap-5">
+                    <h1 class="lg:text-6xl lg:font-bold text-4xl font-semibold">Hi, I’m Sagar 👋</h1>
+                    <p1 class="text-base font-normal flex justify-center items-center">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)<br /> exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even<br /> though I have been creating web applications for over 7 years, I still love it as if it was something new.</p1>
                     <div class="flex flex-col gap-2 mt-12">
                         <div class="flex gap-2">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +26,7 @@ export const FirstMainPage = () => {
                             Available for new projects
                         </div>
                     </div>
-                    <div class="pt-12 ">
+                    <div class="lg:pt-12 ">
                         <div class="flex">
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21 28V24C21.1392 22.7473 20.78 21.4901 20 20.5C23 20.5 26 18.5 26 15C26.08 13.75 25.73 12.52 25 11.5C25.28 10.35 25.28 9.15 25 8C25 8 24 8 22 9.5C19.36 9 16.64 9 14 9.5C12 8 11 8 11 8C10.7 9.15 10.7 10.35 11 11.5C10.2719 12.5159 9.91851 13.7528 10 15C10 18.5 13 20.5 16 20.5C15.61 20.99 15.32 21.55 15.15 22.15C14.98 22.75 14.93 23.38 15 24V28" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -45,8 +48,8 @@ export const FirstMainPage = () => {
                         </div>
                     </div>
                 </div>
-                <div class="h-90 w-100">
-                    <img class="shadow-[40px_40px_#E5E7EB]" src='Pic.png' />
+                <div class="h-90 w-100 hidden lg:block">
+                    <img class="lg:shadow-[40px_40px_#E5E7EB]" src='Pic.png' />
                 </div>
             </div>
         </div>

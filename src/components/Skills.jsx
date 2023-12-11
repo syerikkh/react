@@ -91,7 +91,7 @@ export const Skills = () => {
     })
 
     return (
-        <div class="flex flex-wrap gap-20 justify-center">
+        <div class="flex flex-wrap lg:gap-20 gap-8 justify-center">
             {skillSet}
         </div>
     )

@@ -1,13 +1,14 @@
 import React from 'react'
+import { MenuIcon } from './Icons/MenuIcon'
 
 export const HeaderPart = () => {
     return (
-        <header class="h-[68px] flex justify-center py-[16px] px-[80px]">
-            <nav class="flex w-[100%] justify-between px-[32px]">
+        <header class="h-[68px] lg:flex justify-center lg:py-[16px] lg:px-[80px] p-4 w-full">
+            <nav class="flex lg:w-[100%] justify-between lg:px-[32px]">
                 <div >
                     <img src="/logo.jpg" alt='' />
                 </div>
-                <div class="flex gap-[24px] items-center">
+                <div class="lg:flex lg:gap-[24px] lg:items-center hidden">
                     <p1>About</p1>
                     <p1>Work</p1>
                     <p1>Testimonials</p1>
@@ -24,7 +25,10 @@ export const HeaderPart = () => {
                         <path d="M25.0699 10.93L23.6599 12.34" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
 
-                    <div class="bg-black w-[136px] text-white py-[6px] px-[16px] rounded-xl flex justify-center items-center">Download CV</div>
+                    <div class="bg-black w-[136px] text-white lg:py-[6px] lg:px-[16px] rounded-xl lg:flex lg:justify-center lg:items-center">Download CV</div>
+                </div>
+                <div class="lg:hidden ">
+                    <MenuIcon />
                 </div>
             </nav>
         </header>
