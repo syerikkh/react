@@ -9,16 +9,16 @@ export const FirstMainPage = () => {
                 </div>
                 <div class="lg:flex lg:flex-col lg:gap-2 lg:items-start flex flex-col gap-5">
                     <h1 class="lg:text-6xl lg:font-bold text-4xl font-semibold">Hi, I’m Sagar 👋</h1>
-                    <p1 class="text-base font-normal flex justify-center items-center">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)<br /> exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even<br /> though I have been creating web applications for over 7 years, I still love it as if it was something new.</p1>
+                    <p1 class="text-base font-normal flex justify-center items-center text-gray-600">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)<br /> exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even<br /> though I have been creating web applications for over 7 years, I still love it as if it was something new.</p1>
                     <div class="flex flex-col gap-2 mt-12">
-                        <div class="flex gap-2">
+                        <div class="flex gap-2 text-gray-600">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20 10C20 16 12 22 12 22C12 22 4 16 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                             Ahmedabad, India
                         </div>
-                        <div class="flex gap-2">
+                        <div class="flex gap-2 text-gray-600">
                             <div class="flex justify-center items-center h-6 w-6"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="8" height="8" rx="4" fill="#10B981" />
                             </svg></div>

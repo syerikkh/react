@@ -12,11 +12,11 @@ export const MainExperience = () => {
                         <div class="p-8 lg:flex lg:gap-12 flex gap-4 flex-col lg:flex-row justify-center lg:justify-center shadow-[0px_2px_2px_0px_grey] rounded-xl">
                             <UpworkIcon />
                             <div class="lg:flex lg:hidden block">
-                                <p1 class="lg:text-base font-normal text-gray-600">Nov 2021 - Present</p1>
+                                <p1 class="text-base font-normal text-gray-600">Nov 2021 - Present</p1>
                             </div>
-                            <div class="lg:flex lg:flex-col lg:gap-4">
+                            <div class="flex flex-col gap-4">
                                 <h1 class="lg:text-xl font-semibold">Sr. Frontend Developer</h1>
-                                <div class="lg:text-base font-normal text-gray-600">
+                                <div class="text-base font-normal text-gray-600">
                                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                                     <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
                                     <li>Sed quis justo ac magna.</li>
@@ -24,17 +24,17 @@ export const MainExperience = () => {
                                 </div>
                             </div>
                             <div class="lg:flex hidden lg:block">
-                                <p1 class="lg:text-base font-normal text-gray-600">Nov 2021 - Present</p1>
+                                <p1 class="text-base font-normal text-gray-600">Nov 2021 - Present</p1>
                             </div>
                         </div>
-                        <div class="lg:p-8 lg:flex lg:gap-12 lg:justify-center lg:shadow-[0px_2px_2px_0px_grey] rounded-xl">
+                        <div class="p-8 flex lg:gap-12 gap-6 lg:flex-row flex-col justify-center shadow-[0px_2px_2px_0px_grey] rounded-xl">
                             <UpworkIcon />
                             <div class="lg:flex lg:hidden block">
-                                <p1 class="lg:text-base font-normal text-gray-600">Jul 2017 - Oct 2021</p1>
+                                <p1 class="text-base font-normal text-gray-600">Jul 2017 - Oct 2021</p1>
                             </div>
-                            <div class="lg:flex lg:flex-col lg:gap-4">
+                            <div class="flex flex-col gap-4">
                                 <h1 class="lg:text-xl font-semibold">Team Lead</h1>
-                                <div class="lg:text-base font-normal text-gray-600">
+                                <div class="text-base font-normal text-gray-600">
                                     <li>Sed quis justo ac magna.</li>
                                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                                     <li>Sed quis justo ac magna.</li>
@@ -46,19 +46,19 @@ export const MainExperience = () => {
                             </div>
                         </div>
 
-                        <div class="lg:p-8 lg:flex lg:gap-12 lg:shadow-[0px_2px_2px_0px_grey] rounded-xl lg:justify-between">
+                        <div class="p-8 flex lg:gap-12 gap-6 lg:flex-row flex-col shadow-[0px_2px_2px_0px_grey] rounded-xl lg:justify-between">
                             <UpworkIcon />
                             <div class="lg:flex lg:hidden block">
-                                <p1 class="lg:text-base font-normal text-gray-600">Dec 2015 - May 2017</p1>
+                                <p1 class="text-base font-normal text-gray-600">Dec 2015 - May 2017</p1>
                             </div>
-                            <div class="lg:flex lg:flex-col lg:gap-4 lg:max-w-[384px]">
+                            <div class="flex flex-col gap-4 lg:max-w-[384px]">
                                 <h1 class="lg:text-xl font-semibold">Full Stack Developer</h1>
-                                <div class="lg:text-base font-normal text-gray-600">
+                                <div class="text-base font-normal text-gray-600">
                                     <li class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                                 </div>
                             </div>
                             <div class="lg:flex lg:block hidden">
-                                <p1 class="lg:text-base font-normal text-gray-600">Dec 2015 - May 2017</p1>
+                                <p1 class="text-base font-normal text-gray-600">Dec 2015 - May 2017</p1>
                             </div>
                         </div>
                     </div>

@@ -17,20 +17,22 @@ import { FigmaSmallIcon } from '@/components/Icons/FigmaSmallIcon'
 import { MainContact } from '@/components/MainContact'
 import { CopyrightIcon } from '@/components/Icons/CopyrightIcon'
 
+
 // import { MainExperiencePart } from '@/components/MainExperiencePart'
 const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
     <>
-      <div class="lg:w-[1440px] m-auto w-screen">
+      <div id="body" class="lg:w-[1440px] m-auto w-screen">
         <HeaderPart />
         <main>
           <FirstMainPage />
           <div class="lg:py-24 lg:px-20 lg:w-[1440px] py-16 px-4 bg-gray-50">
             <div class="lg:px-8 flex flex-col lg:gap-12 gap-6">
               <div class="flex justify-center items-center">
-                <div class="py-1 px-5 rounded-xl bg-[#E5E7EB]">About me</div>
+                <div class="py-1 px-5 rounded-xl text-sm bg-[#E5E7EB]">About me</div>
               </div>
               <div class="lg:flex lg:flex-row lg:gap-12 flex flex-col gap-12">
                 <div class="flex flex-col lg:items-start flex-[1_0_0] items-center self-stretch">
@@ -52,27 +54,27 @@ export default function Home() {
             </div>
           </div>
           <MainExperience />
-          <div class="lg:w-[1440px] lg:py-24 lg:px-20">
-            <div class="lg:px-8 lg:flex lg:flex-col lg:gap-12 lg:justify-center lg:items-center">
+          <div class="lg:w-[1440px] lg:py-24 lg:px-20 py-16 px-4">
+            <div class="lg:px-8 flex flex-col lg:gap-12 gap-6 lg:justify-center lg:items-center">
               <Label label="Work" text="Some of the noteworthy projects I have built:" />
-              <div class="lg:flex lg:shadow-[0px_2px_2px_0px_grey] rounded-xl">
-                <div class="lg:p-12 lg:w-[50%]"><img src='Picture.png' /></div>
+              <div class="lg:flex shadow-[0px_2px_2px_0px_grey] rounded-xl">
+                <div class="lg:p-12 lg:p-8 lg:w-[50%] flex justify-center items-center"><img src='Picture.png' /></div>
                 <WorkText />
               </div>
-              <div class="lg:flex lg:shadow-[0px_2px_2px_0px_grey] rounded-xl">
+              <div class="lg:flex shadow-[0px_2px_2px_0px_grey] rounded-xl">
                 <WorkText />
-                <div class="lg:p-12 lg:w-[50%]"><img src='Picture.png' /></div>
+                <div class="lg:p-12 lg:p-8 lg:w-[50%] flex justify-center items-center"><img src='Picture.png' /></div>
               </div>
-              <div class="lg:flex lg:shadow-[0px_2px_2px_0px_grey] rounded-xl">
-                <div class="lg:p-12 lg:w-[50%]"><img src='Picture.png' /></div>
+              <div class="lg:flex shadow-[0px_2px_2px_0px_grey] rounded-xl">
+                <div class="lg:p-12 lg:p-8 lg:w-[50%] flex justify-center items-center"><img src='Picture.png' /></div>
                 <WorkText />
               </div>
             </div>
           </div>
           <MainContact />
         </main>
-        <footer class="lg:py-6 lg:px-20  bg-gray-50">
-          <div class="lg:flex lg:justify-center lg:items-center lg:gap-2">
+        <footer class="lg:py-6 lg:px-20 py-6 bg-gray-50">
+          <div class="flex justify-center items-center gap-2 text-center text-sm">
             <CopyrightIcon />
             2023 | <p class="underline">Designed</p> and <p class="underline">coded</p> with ❤️️ by Sagar Shah
           </div>
