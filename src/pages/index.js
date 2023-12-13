@@ -16,6 +16,8 @@ import { FigmaIcon } from '@/components/Skills Icons/FigmaIcon'
 import { FigmaSmallIcon } from '@/components/Icons/FigmaSmallIcon'
 import { MainContact } from '@/components/MainContact'
 import { CopyrightIcon } from '@/components/Icons/CopyrightIcon'
+import { Counter } from '@/components/Counter'
+import { Toggle } from '@/components/Toggle'
 
 
 // import { MainExperiencePart } from '@/components/MainExperiencePart'
@@ -73,6 +75,8 @@ export default function Home() {
           </div>
           <MainContact />
         </main>
+        <Counter />
+        <Toggle />
         <footer class="lg:py-6 lg:px-20 py-6 bg-gray-50">
           <div class="flex justify-center items-center gap-2 text-center text-sm">
             <CopyrightIcon />
