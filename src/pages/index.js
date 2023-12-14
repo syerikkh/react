@@ -25,6 +25,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
+
   return (
     <>
       <div id="body" class="lg:w-[1440px] m-auto w-screen">
@@ -36,7 +37,7 @@ export default function Home() {
               <div class="flex justify-center items-center">
                 <div class="py-1 px-5 rounded-xl text-sm bg-[#E5E7EB]">About me</div>
               </div>
-              <div class="lg:flex lg:flex-row lg:gap-12 flex flex-col gap-12">
+              <div class="lg:flex lg:flex-row lg:gap-12 flex flex-col gap-12 items-center">
                 <div class="flex flex-col lg:items-start flex-[1_0_0] items-center self-stretch">
                   <img class="lg:shadow-[-40px_40px_#E5E7EB] shadow-[-20px_20px_#E5E7EB]" src='Pic2.png' />
                 </div>

@@ -9,7 +9,7 @@ export const MainExperience = () => {
                 <div class="lg:flex lg:justify-center lg:items-center lg:flex-col lg:gap-4">
                     <Label label="Experience" text="Here is a quick summary of my most recent experiences:" />
                     <div class="lg:flex lg:flex-col lg:gap-12 flex flex-col gap-6">
-                        <div class="p-8 lg:flex lg:gap-12 flex gap-4 flex-col lg:flex-row justify-center lg:justify-center shadow-[0px_2px_2px_0px_grey] rounded-xl">
+                        <div class="p-8 lg:flex lg:gap-12 flex gap-4 flex-col lg:flex-row lg:justify-center shadow-[0px_2px_2px_0px_grey] rounded-xl justify-center">
                             <UpworkIcon />
                             <div class="lg:flex lg:hidden block">
                                 <p1 class="text-base font-normal text-gray-600">Nov 2021 - Present</p1>
