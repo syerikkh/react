@@ -51,7 +51,7 @@ export default function Home() {
           <div class="lg:py-24 lg:px-20 lg:w-[1440px] py-16 px-4">
             <div class="flex flex-col gap-12 px-8">
               <Label label="Skills" text="The skills, tools and technologies I am really good at:" />
-              <div>
+              <div class="flex justify-center items-center">
                 <Skills />
               </div>
             </div>
@@ -78,6 +78,7 @@ export default function Home() {
         </main>
         <Counter />
         <Toggle />
+
         <footer class="lg:py-6 lg:px-20 py-6 bg-gray-50">
           <div class="flex justify-center items-center gap-2 text-center text-sm">
             <CopyrightIcon />
