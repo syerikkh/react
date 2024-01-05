@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MenuIcon } from './Icons/MenuIcon'
 
 export const HeaderPart = () => {
+    const [toggle, setToggle] = useState(false);
     return (
         <header class="h-[68px] lg:flex justify-center lg:py-[16px] lg:px-[80px] p-4 w-full">
             <nav class="flex lg:w-[100%] justify-between lg:px-[32px]">
                 <div >
                     <img src="/logo.jpg" alt='' />
                 </div>
-                <div class="lg:flex lg:gap-[24px] lg:items-center hidden text-gray-600">
+                <div id='aboutid' class="lg:flex lg:gap-[24px] lg:items-center hidden text-gray-600">
                     <p1>About</p1>
                     <p1>Work</p1>
                     <p1>Testimonials</p1>
@@ -28,7 +29,10 @@ export const HeaderPart = () => {
                     <div class="bg-gray-900 w-[136px] text-white lg:py-[6px] lg:px-[16px] rounded-xl lg:flex lg:justify-center lg:items-center">Download CV</div>
                 </div>
                 <div class="lg:hidden ">
-                    <MenuIcon />
+                    <button onClick={() => setToggle(!toggle)}>
+                        {toggle ? <img className='w-[24px] h-[24px]' src='https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/close-icon.png'></img> : <MenuIcon />}
+
+                    </button>
                 </div>
             </nav>
         </header>
